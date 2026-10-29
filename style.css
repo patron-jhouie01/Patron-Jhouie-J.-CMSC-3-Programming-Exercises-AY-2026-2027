@@ -1,0 +1,109 @@
+
+:root {
+    --blue-dark: #0b3d91;
+    --blue: #1a56db;
+    --blue-mid: #4d86f7;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* -- ELEMENT SELECTOR -- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;            
+    font-size: 18px;                                       
+    color: var(--black);                                   
+    background-color: #bcd4ff;                   
+    background-image: linear-gradient(180deg, #2457d6 0%, #5b95ff 45%, #bcd4ff 100%);
+    background-attachment: fixed;
+    margin: 0;                                             
+    padding: 20px 16px 70px;                               
+    min-height: 100vh;
+}
+
+/* -- ID SELECTOR -- */
+#profile-card {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* -- CLASS SELECTOR -- */
+.header {
+    text-align: center;
+    padding: 70px 0 44px;
+}
+
+/* -- GROUP SELECTOR -- */
+h1, h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-align: center;                                   
+    margin: 0;
+}
+
+/* -- ELEMENT SELECTOR -- */
+h1 {
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--white);
+    text-shadow: 0 3px 18px rgba(6, 26, 64, 0.35);
+}
+
+/* -- ELEMENT SELECTOR -- */
+h2 {
+    font-family: Bahnschrift, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 18px;
+    line-height: 1.2;
+    color: var(--white);
+    text-shadow: 3px 3px 0 var(--blue-dark);
+}
+
+/* -- ELEMENT SELECTOR -- */
+p {
+    line-height: 1.7;
+    margin: 10px 0;
+}
+
+/* -- CLASS SELECTOR -- */
+.section {
+    background-color: var(--white);
+    padding: 22px 30px 20px;
+    border: 1px solid var(--blue-mid);
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(6, 26, 64, 0.16);
+}
+
+/* -- DESCENDANT SELECTOR -- */
+.section strong {
+    display: inline-block;
+    color: var(--white);
+    background-color: var(--blue-mid);
+    border: 1px solid var(--blue-mid);
+    font-size: 15px;
+    padding: 5px 16px;
+    border-radius: 999px;
+    margin-bottom: 8px;
+}
+
+/* -- GROUP SELECTOR -- */
+i, em {
+    color: var(--blue);
+}
+
+/* -- LINK + PSEUDO-CLASS SELECTORS -- */
+a {
+    color: var(--blue);
+    text-decoration: none;                                 
+    font-weight: bold;
+    border-bottom: 2px solid var(--blue);
+}
+
+/* -- PSEUDO-CLASS SELECTORS -- */
+a:hover {
+    color: var(--white);
+    background-color: var(--blue);
+    padding: 2px 6px;
+    border-radius: 6px;
+}
